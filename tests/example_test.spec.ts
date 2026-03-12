@@ -6,6 +6,7 @@ import WorkOutHolidayPage from "./pages/workOutHolidayPage";
 import DaysWorkedPerWeekPage from "./pages/daysWorkedPerWeekPage";
 import SummaryPage from "./pages/summaryPage";
 
+// This is anexample playwright test using POM structure
 test(`Example test - a nice happy path`, async ({ page }): Promise<void> => {
     // Navigate to the landing page
     await page.goto('https://www.gov.uk/calculate-your-holiday-entitlement');

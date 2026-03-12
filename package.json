@@ -8,6 +8,7 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-    "test": "playwright test --project chromium --headed"
+    "test": "playwright test --project chromium --headed",
+    "my_test": "playwright test tests/your_test.spec.ts --project chromium --headed"
   }
 }
